@@ -145,9 +145,3 @@ Dosen sangat suka ini karena data anak yatim atau karyawan tidak boleh benar-ben
 
 * Tambahkan kolom **`deleted_at` (Timestamp, Nullable)** di tabel `users`, `karyawan`, dan `anak_asuh`.
 * Di Laravel, Anda cukup menambahkan `use SoftDeletes;` pada Model-nya.
-
-### Kesimpulan untuk Sidang:
-
-Jika Anda hanya ingin sistem yang **simple dan cepat selesai**, gunakan 5 tabel yang saya buatkan sebelumnya.
-
-Namun, jika Anda ingin **nilai A dan meminimalisir revisi** saat sidang, tambahkan tabel `kegiatan_anak` dan `pengajuan_izin` di atas agar analisis sistem Anda dinilai matang dan sesuai dengan kondisi yayasan yang sebenarnya.
